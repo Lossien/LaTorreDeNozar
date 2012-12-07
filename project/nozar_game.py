@@ -443,6 +443,7 @@ class PrologueState(TextState):
         
         TextState.onEnterStep(self, aStep);
         
+        #TODO: Translate (INTRO)
         if aStep == 0:
             self.write("ERA UN DiA COMO CUALQUIER OTRO...");
         elif aStep == 1:
@@ -570,6 +571,7 @@ class EndingState(TextState):
         
         TextState.onEnterStep(self, aStep);
         
+        #TODO: Translate (ENDING)
         if aStep == 0:
             self.write("EL MOMENTO DE LA VERDAD");
             self.write("POR FIN HABiA LLEGADO...");
@@ -694,13 +696,13 @@ class TitleState:
         assert isinstance(aGame,game.Game);
         
         if self.time < self.startTime:
-            aGame.drawCenteredText(FNT_CLEARLY, 150, 225/2, "SEBAGAMES PRESENTA");
+            aGame.drawCenteredText(FNT_CLEARLY, 150, 225/2, "SEBAGAMES PRESENTS");
             if self.time > self.startTime - 120:
-                aGame.drawCenteredText(FNT_CLEARLY, 150, 225/2 + 20, "UNA PRODUCCIoN DE SEBAGAMES");
+                aGame.drawCenteredText(FNT_CLEARLY, 150, 225/2 + 20, "A SEBAGAMES PRODUCTION");
         
         if self.time > self.inputStartTime:
             if self.time % 60 < 40:
-                aGame.drawCenteredText(FNT_CLEARLY, 150, 170, "PRESIONA ENTER PARA JUGAR");
+                aGame.drawCenteredText(FNT_CLEARLY, 150, 170, "PRESS ENTER TO PLAY");
         
 class IntermisionState(TextState):
     def __init__(self, aLevelIndex):
@@ -719,6 +721,7 @@ class IntermisionState(TextState):
     def onEnterStep(self, aStep):
         TextState.onEnterStep(self, aStep);
         
+        #TODO: Translate (INTERMISION)
         if aStep == 0:
             if self.levelIndex == 0:
                 self.write("^ESTAMOS EN EL PRIMER PISO!");
@@ -871,6 +874,7 @@ class GameplayState:
                 if self.levelIndex == 0:
                     initialWait = 30;
                 
+                #TODO: Translate (HELP)
                 if self.sequenceTime == initialWait:
                     self.spawnHudEffect(FloatString("LLEVA EL NuMERO DE", 150, 80, -2, 0.8, 300));
                 if self.sequenceTime == initialWait + 10:
@@ -912,11 +916,13 @@ class GameplayState:
                         self.secondCounter -= 60;
                         self.time -= 1;
                         if self.time == 30:
+                            #TODO: Translate
                             self.spawnHudEffect(FloatString("^NOZAR LLEGARa EN 30 SEGUNDOS!", 150, 40, 4, 0.75, 60 * 3));
                         
                         if self.time <= 10:
                             if self.time == 10:
                                 self.game.stopMusic();
+                                #TODO: Translate
                                 self.spawnHudEffect(FloatString("^RaPIDO, EL TIEMPO SE ACABA!", 150, 40, 4, 0.75, 60 * 3));
                             if self.time % 2 == 0:
                                 self.playSound(SND_CLOCK_PAIR);
@@ -932,7 +938,7 @@ class GameplayState:
                     self.emptyLevel();
                     if self.isEmptyLevel() and self.mainCharacter.state != self.mainCharacter.ST_WIN:
                         self.mainCharacter.setState(self.mainCharacter.ST_WIN);
-                        self.spawnHudEffect(FloatString("^MUY BIEN!", 150, 75, -2, 0.9, 60));
+                        self.spawnHudEffect(FloatString("VERY WELL!", 150, 75, -2, 0.9, 60));
                     
                     if self.mainCharacter.readyToNextLevel:
                         
@@ -1087,21 +1093,21 @@ class GameplayState:
         if self.paused:
             aGame.drawImage(IMGLIB_MISC.images["pause_portrait"], 0, 0, False);
             if self.pauseSubMenu == 0:
-                aGame.drawCenteredText(FNT_CLEARLY, 150, 86, "^PAUSA!");
+                aGame.drawCenteredText(FNT_CLEARLY, 150, 86, "PAUSE!");
                 if self.pauseOption == 0:
-                    aGame.drawCenteredText(FNT_CLEARLY, 150, 110, "<SEGUIR JUGANDO>");
-                    aGame.drawCenteredText(FNT_CLEARLY_DARK, 150, 122, "VOLVER AL TiTULO");
+                    aGame.drawCenteredText(FNT_CLEARLY, 150, 110, "<RESUME>");
+                    aGame.drawCenteredText(FNT_CLEARLY_DARK, 150, 122, "BACK TO TITLE");
                 else:
-                    aGame.drawCenteredText(FNT_CLEARLY_DARK, 150, 110, "SEGUIR JUGANDO");
-                    aGame.drawCenteredText(FNT_CLEARLY, 150, 122, "<VOLVER AL TiTULO>");
+                    aGame.drawCenteredText(FNT_CLEARLY_DARK, 150, 110, "RESUME");
+                    aGame.drawCenteredText(FNT_CLEARLY, 150, 122, "<BACK TO TITLE>");
             else:
-                aGame.drawCenteredText(FNT_CLEARLY, 150, 86, "&SEGURO QUIERES SALIR?");
+                aGame.drawCenteredText(FNT_CLEARLY, 150, 86, "ARE YOU SURE?");
                 if self.pauseOption == 0:
-                    aGame.drawCenteredText(FNT_CLEARLY, 150, 110, "<NO DEL TODO>");
-                    aGame.drawCenteredText(FNT_CLEARLY_DARK, 150, 122, "^POR SUPUESTO!");
+                    aGame.drawCenteredText(FNT_CLEARLY, 150, 110, "<NO>");
+                    aGame.drawCenteredText(FNT_CLEARLY_DARK, 150, 122, "OF COURSE!");
                 else:
-                    aGame.drawCenteredText(FNT_CLEARLY_DARK, 150, 110, "NO DEL TODO");
-                    aGame.drawCenteredText(FNT_CLEARLY, 150, 122, "<^POR SUPUESTO!>");
+                    aGame.drawCenteredText(FNT_CLEARLY_DARK, 150, 110, "NO");
+                    aGame.drawCenteredText(FNT_CLEARLY, 150, 122, "<OF COURSE!>");
                     
                 
         
@@ -2028,7 +2034,7 @@ class Diamond():
         if aByPlayer:
             self.manager.getDiamond(self.gameObj.x, self.gameObj.getDrawY());
             self.manager.playSound(SND_DIAMOND_GET);
-            self.manager.spawnHudEffect(FloatString("+1 DIAMANTE", self.gameObj.x, self.gameObj.getShadowDrawY() - 32, -4, 0.75, 12));
+            self.manager.spawnHudEffect(FloatString("+1 DIAMONND", self.gameObj.x, self.gameObj.getShadowDrawY() - 32, -4, 0.75, 12));
             
     def getDepth(self):
         return self.gameObj.z;
