@@ -394,8 +394,8 @@ class TextState(SimpleState):
         
         
         if self.skipTime > 0:
-            aGame.drawCenteredText(FNT_CLEARLY_DARK, 200, 195, "PRESIONA ENTER O ESCAPE");
-            aGame.drawCenteredText(FNT_CLEARLY_DARK, 200, 205, "PARA SALTARTE ESTO ->");
+            aGame.drawCenteredText(FNT_CLEARLY_DARK, 200, 195, "PRESS ENTER OR ESCAPE");
+            aGame.drawCenteredText(FNT_CLEARLY_DARK, 200, 205, "TO SKIP THIS ->");
 
 class PrologueState(TextState):
     def __init__(self):
