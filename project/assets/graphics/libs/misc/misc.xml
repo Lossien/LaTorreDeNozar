@@ -1,0 +1,6 @@
+﻿<LibraryInfo>
+  <data>
+    <SpriteData keyName="fairy" sourceImage="misc" axis="-4,-34" sourceRect="1,1,126,124" />
+    <SpriteData keyName="pause_portrait" sourceImage="misc" axis="-46,-75" sourceRect="128,1,210,74" />
+  </data>
+</LibraryInfo>

@@ -1,0 +1,34 @@
+﻿<LibraryInfo>
+  <data>
+    <SpriteData keyName="happy00l" sourceImage="number_one" axis="17,36" sourceRect="77,89,34,38" />
+    <SpriteData keyName="happy00r" sourceImage="number_one" axis="17,36" sourceRect="42,89,34,38" />
+    <SpriteData keyName="happy01l" sourceImage="number_one" axis="20,41" sourceRect="1,56,40,44" />
+    <SpriteData keyName="happy01r" sourceImage="number_one" axis="19,41" sourceRect="69,1,40,44" />
+    <SpriteData keyName="run00l" sourceImage="number_one" axis="20,37" sourceRect="83,46,40,40" />
+    <SpriteData keyName="run00r" sourceImage="number_one" axis="19,37" sourceRect="42,48,40,40" />
+    <SpriteData keyName="run01l" sourceImage="number_one" axis="16,36" sourceRect="211,79,32,38" />
+    <SpriteData keyName="run01r" sourceImage="number_one" axis="15,36" sourceRect="223,40,32,38" />
+    <SpriteData keyName="spawn00l" sourceImage="number_one" axis="7,52" sourceRect="12,1,10,54" />
+    <SpriteData keyName="spawn00r" sourceImage="number_one" axis="3,52" sourceRect="1,1,10,54" />
+    <SpriteData keyName="spawn01l" sourceImage="number_one" axis="12,44" sourceRect="46,1,22,46" />
+    <SpriteData keyName="spawn01r" sourceImage="number_one" axis="9,44" sourceRect="23,1,22,46" />
+    <SpriteData keyName="spawn02l" sourceImage="number_one" axis="19,30" sourceRect="207,118,36,34" />
+    <SpriteData keyName="spawn02r" sourceImage="number_one" axis="16,30" sourceRect="244,79,36,34" />
+    <SpriteData keyName="spawn03l" sourceImage="number_one" axis="17,36" sourceRect="178,79,32,38" />
+    <SpriteData keyName="spawn03r" sourceImage="number_one" axis="14,36" sourceRect="145,79,32,38" />
+    <SpriteData keyName="spawn04l" sourceImage="number_one" axis="17,36" sourceRect="190,40,32,38" />
+    <SpriteData keyName="spawn04r" sourceImage="number_one" axis="14,36" sourceRect="209,1,32,38" />
+    <SpriteData keyName="spawn05l" sourceImage="number_one" axis="16,35" sourceRect="176,118,30,36" />
+    <SpriteData keyName="spawn05r" sourceImage="number_one" axis="13,35" sourceRect="145,118,30,36" />
+    <SpriteData keyName="stand00l" sourceImage="number_one" axis="17,36" sourceRect="112,87,32,38" />
+    <SpriteData keyName="stand00r" sourceImage="number_one" axis="14,36" sourceRect="157,40,32,38" />
+    <SpriteData keyName="stand01l" sourceImage="number_one" axis="17,35" sourceRect="176,1,32,38" />
+    <SpriteData keyName="stand01r" sourceImage="number_one" axis="14,35" sourceRect="124,40,32,38" />
+    <SpriteData keyName="stand02l" sourceImage="number_one" axis="16,35" sourceRect="242,1,30,38" />
+    <SpriteData keyName="stand02r" sourceImage="number_one" axis="14,35" sourceRect="1,101,30,38" />
+    <SpriteData keyName="stand03l" sourceImage="number_one" axis="17,35" sourceRect="143,1,32,38" />
+    <SpriteData keyName="stand03r" sourceImage="number_one" axis="14,35" sourceRect="110,1,32,38" />
+    <SpriteData keyName="take00l" sourceImage="number_one" axis="18,31" sourceRect="256,40,28,34" />
+    <SpriteData keyName="take00r" sourceImage="number_one" axis="10,30" sourceRect="244,114,28,32" />
+  </data>
+</LibraryInfo>

@@ -1,0 +1,30 @@
+﻿<LibraryInfo>
+  <data>
+    <SpriteData keyName="attack_a00" sourceImage="character" axis="15,41" sourceRect="252,46,32,44" />
+    <SpriteData keyName="attack_a01" sourceImage="character" axis="16,40" sourceRect="289,1,34,44" />
+    <SpriteData keyName="attack_a02" sourceImage="character" axis="13,39" sourceRect="225,97,36,42" />
+    <SpriteData keyName="attack_a03" sourceImage="character" axis="9,45" sourceRect="81,1,38,48" />
+    <SpriteData keyName="attack_a04" sourceImage="character" axis="9,44" sourceRect="42,1,38,48" />
+    <SpriteData keyName="attack_a05" sourceImage="character" axis="10,44" sourceRect="1,1,40,48" />
+    <SpriteData keyName="attack_a06" sourceImage="character" axis="13,41" sourceRect="244,1,44,44" />
+    <SpriteData keyName="attack_a07" sourceImage="character" axis="13,41" sourceRect="180,97,44,44" />
+    <SpriteData keyName="attack_a08" sourceImage="character" axis="13,42" sourceRect="174,50,46,46" />
+    <SpriteData keyName="fairy00" sourceImage="character" axis="15,18" sourceRect="32,146,30,22" />
+    <SpriteData keyName="fairy01" sourceImage="character" axis="16,18" sourceRect="1,146,30,22" />
+    <SpriteData keyName="stand00" sourceImage="character" axis="16,44" sourceRect="75,50,36,48" />
+    <SpriteData keyName="stand01" sourceImage="character" axis="16,44" sourceRect="38,50,36,48" />
+    <SpriteData keyName="stand02" sourceImage="character" axis="16,44" sourceRect="1,50,36,48" />
+    <SpriteData keyName="stand03" sourceImage="character" axis="16,43" sourceRect="112,99,36,46" />
+    <SpriteData keyName="stand04" sourceImage="character" axis="16,43" sourceRect="75,99,36,46" />
+    <SpriteData keyName="stand05" sourceImage="character" axis="16,42" sourceRect="38,99,36,46" />
+    <SpriteData keyName="stand06" sourceImage="character" axis="16,43" sourceRect="1,99,36,46" />
+    <SpriteData keyName="walk00" sourceImage="character" axis="14,45" sourceRect="213,1,30,48" />
+    <SpriteData keyName="walk01" sourceImage="character" axis="14,43" sourceRect="221,50,30,46" />
+    <SpriteData keyName="walk02" sourceImage="character" axis="14,44" sourceRect="143,50,30,48" />
+    <SpriteData keyName="walk03" sourceImage="character" axis="14,45" sourceRect="182,1,30,48" />
+    <SpriteData keyName="walk04" sourceImage="character" axis="14,45" sourceRect="112,50,30,48" />
+    <SpriteData keyName="walk05" sourceImage="character" axis="14,43" sourceRect="149,99,30,46" />
+    <SpriteData keyName="walk06" sourceImage="character" axis="14,44" sourceRect="151,1,30,48" />
+    <SpriteData keyName="walk07" sourceImage="character" axis="14,45" sourceRect="120,1,30,48" />
+  </data>
+</LibraryInfo>

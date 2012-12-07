@@ -1,0 +1,19 @@
+﻿<LibraryInfo>
+  <data>
+    <SpriteData keyName="appear00" sourceImage="ghost" axis="9,45" sourceRect="50,196,22,40" />
+    <SpriteData keyName="appear01" sourceImage="ghost" axis="21,54" sourceRect="1,196,48,54" />
+    <SpriteData keyName="appear02" sourceImage="ghost" axis="25,58" sourceRect="178,131,54,62" />
+    <SpriteData keyName="appear03" sourceImage="ghost" axis="28,59" sourceRect="119,131,58,64" />
+    <SpriteData keyName="appear04" sourceImage="ghost" axis="28,59" sourceRect="178,66,58,64" />
+    <SpriteData keyName="appear05" sourceImage="ghost" axis="28,59" sourceRect="60,131,58,64" />
+    <SpriteData keyName="appear06" sourceImage="ghost" axis="28,59" sourceRect="119,66,58,64" />
+    <SpriteData keyName="appear07" sourceImage="ghost" axis="28,59" sourceRect="1,131,58,64" />
+    <SpriteData keyName="damage00" sourceImage="ghost" axis="28,59" sourceRect="60,66,58,64" />
+    <SpriteData keyName="damage01" sourceImage="ghost" axis="28,59" sourceRect="1,66,58,64" />
+    <SpriteData keyName="laugh00" sourceImage="ghost" axis="28,59" sourceRect="64,1,62,64" />
+    <SpriteData keyName="laugh01" sourceImage="ghost" axis="28,59" sourceRect="1,1,62,64" />
+    <SpriteData keyName="normal00" sourceImage="ghost" axis="28,59" sourceRect="186,1,58,64" />
+    <SpriteData keyName="normal01" sourceImage="ghost" axis="28,59" sourceRect="127,1,58,64" />
+    <SpriteData keyName="shadow" sourceImage="ghost" axis="14,2" sourceRect="73,196,28,6" />
+  </data>
+</LibraryInfo>

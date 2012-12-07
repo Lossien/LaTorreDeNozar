@@ -1,0 +1,17 @@
+﻿<LibraryInfo>
+  <data>
+    <SpriteData keyName="1" sourceImage="attacks" axis="9,12" sourceRect="24,1,16,22" />
+    <SpriteData keyName="2" sourceImage="attacks" axis="10,11" sourceRect="62,1,18,20" />
+    <SpriteData keyName="3" sourceImage="attacks" axis="8,11" sourceRect="77,22,16,20" />
+    <SpriteData keyName="4" sourceImage="attacks" axis="7,11" sourceRect="98,1,14,20" />
+    <SpriteData keyName="5" sourceImage="attacks" axis="8,11" sourceRect="60,22,16,20" />
+    <SpriteData keyName="6" sourceImage="attacks" axis="8,11" sourceRect="81,1,16,20" />
+    <SpriteData keyName="7" sourceImage="attacks" axis="9,11" sourceRect="41,43,18,20" />
+    <SpriteData keyName="8" sourceImage="attacks" axis="9,11" sourceRect="41,22,18,20" />
+    <SpriteData keyName="9" sourceImage="attacks" axis="9,11" sourceRect="22,24,18,20" />
+    <SpriteData keyName="divide_left" sourceImage="attacks" axis="10,10" sourceRect="1,24,20,20" />
+    <SpriteData keyName="divide_right" sourceImage="attacks" axis="13,10" sourceRect="41,1,20,20" />
+    <SpriteData keyName="minus" sourceImage="attacks" axis="15,3" sourceRect="1,45,28,6" />
+    <SpriteData keyName="plus" sourceImage="attacks" axis="12,11" sourceRect="1,1,22,22" />
+  </data>
+</LibraryInfo>

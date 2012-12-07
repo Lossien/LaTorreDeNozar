@@ -1,0 +1,28 @@
+﻿<LibraryInfo>
+  <data>
+    <SpriteData keyName="diamond00" sourceImage="effects" axis="8,10" sourceRect="115,31,16,14" />
+    <SpriteData keyName="diamond01" sourceImage="effects" axis="8,10" sourceRect="132,1,16,14" />
+    <SpriteData keyName="diamond02" sourceImage="effects" axis="8,10" sourceRect="115,16,16,14" />
+    <SpriteData keyName="diamond03" sourceImage="effects" axis="8,10" sourceRect="115,1,16,14" />
+    <SpriteData keyName="diamond04" sourceImage="effects" axis="8,10" sourceRect="102,90,16,14" />
+    <SpriteData keyName="diamond05" sourceImage="effects" axis="8,10" sourceRect="85,90,16,14" />
+    <SpriteData keyName="diamond06" sourceImage="effects" axis="8,10" sourceRect="97,75,16,14" />
+    <SpriteData keyName="diamond07" sourceImage="effects" axis="8,10" sourceRect="97,60,16,14" />
+    <SpriteData keyName="diamond08" sourceImage="effects" axis="8,10" sourceRect="68,87,16,14" />
+    <SpriteData keyName="diamond09" sourceImage="effects" axis="8,13" sourceRect="34,89,16,16" />
+    <SpriteData keyName="diamond10" sourceImage="effects" axis="8,10" sourceRect="51,89,16,14" />
+    <SpriteData keyName="diamond11" sourceImage="effects" axis="11,16" sourceRect="59,66,18,20" />
+    <SpriteData keyName="diamond12" sourceImage="effects" axis="10,15" sourceRect="78,60,18,18" />
+    <SpriteData keyName="diamond_shadow" sourceImage="effects" axis="6,-1" sourceRect="149,8,12,4" />
+    <SpriteData keyName="flare" sourceImage="effects" axis="32,32" sourceRect="1,1,64,64" />
+    <SpriteData keyName="hud_diamond" sourceImage="effects" axis="4,6" sourceRect="132,23,8,6" />
+    <SpriteData keyName="hud_diamond00" sourceImage="effects" axis="4,6" sourceRect="149,1,8,6" />
+    <SpriteData keyName="hud_diamond01" sourceImage="effects" axis="4,6" sourceRect="132,16,8,6" />
+    <SpriteData keyName="hud_diamond02" sourceImage="effects" axis="4,6" sourceRect="19,95,8,6" />
+    <SpriteData keyName="hud_diamond03" sourceImage="effects" axis="4,6" sourceRect="10,95,8,6" />
+    <SpriteData keyName="hud_diamond04" sourceImage="effects" axis="4,6" sourceRect="1,95,8,6" />
+    <SpriteData keyName="nozar_face" sourceImage="effects" axis="24,30" sourceRect="66,1,48,58" />
+    <SpriteData keyName="nozar_hand" sourceImage="effects" axis="17,17" sourceRect="1,66,32,28" />
+    <SpriteData keyName="simple_spark" sourceImage="effects" axis="11,11" sourceRect="34,66,24,22" />
+  </data>
+</LibraryInfo>
