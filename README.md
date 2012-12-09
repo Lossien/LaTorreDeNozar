@@ -9,8 +9,8 @@ Setup
 
 Para correr este programa se necesita tener instalado:
 
-1. [Python](http://www.python.org/)
-2. [PyGame](http://www.pygame.org/)
+1. [Python](http://www.python.org/) versión 2.7.3
+2. [PyGame](http://www.pygame.org/) versión 1.9.1
 3. ????
 4. Run it!
 
